@@ -19,6 +19,7 @@ export const createToast = (
   type,
   message,
   pauseDuration: 0,
+  paused: false,
   createdAt: Date.now(),
   visible: true,
   id: options.id || generateID(),
